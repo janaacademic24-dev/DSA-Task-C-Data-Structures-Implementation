@@ -1,0 +1,12 @@
+# IDE files
+.idea/
+*.iml
+cmake-build-*/
+
+# Compiled files
+*.o
+*.exe
+*.out
+
+# CMake build folder
+build/
