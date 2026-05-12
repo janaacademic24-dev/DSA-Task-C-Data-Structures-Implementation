@@ -11,3 +11,5 @@ add_executable(DSA_task main.cpp
         stack.h
         Queue.cpp
         Queue.h)
+enable_testing()
+add_test(NAME RunTests COMMAND DSA_task)
